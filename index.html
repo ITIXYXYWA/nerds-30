@@ -1,52 +1,64 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
     <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
-    <link rel="apple-touch-icon" href="./img/152.ico"> 
+    <link rel="apple-touch-icon" href="./img/152.ico">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="./manifest.webmanifest">
   </head>
-  <body>
+  <body class="page-body">
 
-    <header>
-      <nav>
-        <a><img width="160" height="65" src="./img/logo.svg" alt="Логотип сайта Nerds"></a>
-        <ul>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img width="160" height="65" src="./img/logo.svg" alt="Логотип сайта Nerds">
+        </a>
+        <ul class="site-navigation">
           <li><a href="./template/blank.html">Студия</a></li>
           <li><a href="./template/blank.html">Клиенты</a></li>
           <li><a href="./catalog.html">Магазин</a></li>
           <li><a href="./template/blank.html">Контакты</a></li>
         </ul>
         <img width="15" height="15" src="./img/cart-icon.svg" alt="Иконка корзины">
-        <a href="./template/blank.html">Корзина</a>
+        <a class="basket-link" href="./template/blank.html">Корзина</a>
       </nav>
     </header>
 
-    <main>
+    <main class="container">
+
       <section>
         <h1>Долго, дорого, скрупулезно.</h1>
         <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
         <a href="./template/blank.html">Узнать больше</a>
-        <img width="760" height="430" src="./img/slider.jpg" alt="">
+        <section class="gallery">
+          <figure class="gallery-content">
+            <a href="#">
+              <img width="760" height="430" src="./img/slider.jpg" alt="">
+            </a>
+          </figure>
+          <input class="gallery-btn" type="radio" name="slider-content" id="slider-btn1">
+          <input class="gallery-btn" type="radio" name="slider-content" id="slider-btn2">
+          <input class="gallery-btn" type="radio" name="slider-content" id="slider-btn3">
+        </section>
       </section>
 
-      <section>
+      <section class="links">
         <ul>
-          <li>
+          <li class="links-item">
             <img width="300" height="145" src="./img/illustration-1.jpg" alt="Иллюстрация-1 (веб-сайты)">
             <h2>веб-сайты</h2>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
             <a href="./template/blank.html">Заказать</a>
           </li>
-          <li>
+          <li class="links-item">
             <img width="300" height="145" src="./img/illustration-2.jpg" alt="Иллюстрация-2 (Телефоны)">
             <h2>приложения</h2>
             <p>Покорите топ-10 приложений в AppStore и GooglePlay</p>
             <a href="./template/blank.html">Заказать</a>
           </li>
-          <li>
+          <li class="links-item">
             <img width="300" height="145" src="./img/illustration-3.jpg" alt="Иллюстрация-3 (Презентации)">
             <h2>презентации</h2>
             <p>Вы даже не подозреваете, насколько вы изумительны!</p>
@@ -55,95 +67,92 @@
         </ul>
       </section>
 
-      <section>
+      <section class="feature">
         <h1>Мы маленькая, но гордая дизайн-студия из Краснодара.</h1>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
         <h4>Выполняем заказы на разработку:</h4>
-        <ul>
-          <li>Веб-сайтов любой сложности</li>
-          <li>Мобильных приложений для IOS и Android</li>
-          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        <ul class="feature-list">
+          <li class="feature-item any-hard">Веб-сайтов любой сложности</li>
+          <li class="feature-item mobile-app">Мобильных приложений для IOS и Android</li>
+          <li class="feature-item media">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
       </section>
 
-      <section>
-        <img width="360" height="208" src="./img/second-logo-nerds.jpg" alt="2-й логотип нердс">
+      <section class="statistics">
+        <img class="second-logo" width="360" height="208" src="./img/second-logo-nerds.jpg" alt="2-й логотип нердс">
         <h4>с 2004 года любим точность во всем:</h4>
-        <ul>
-          <li>
+        <ul class="stat-list">
+          <li class="stat-item dedication-level">
             <h1>146<sup>%</sup></h1>
             <p>Уровень самоотдачи</p>
           </li>
-          <li>
+          <li class="stat-item deadline">
             <h1>100<sup>%</sup></h1>
             <p>Соблюдения сроков</p>
           </li>
-          <li>
+          <li class="stat-item minimum-payment">
             <h1>50<sup>%</sup></h1>
             <p>Минимальная предоплата</p>
           </li>
         </ul>
       </section>
 
-      <section>
-        <ul>
-          <li>
+      <section class="partners">
+        <ul class="partners-list">
+          <li class="partners-item">
             <img width="54" height="68" src="./img/htmlacademy.svg" alt="htmlacademy">
             <h3>html <br> academy</h3>
           </li>
-          <li>
+          <li class="partners-item">
             <img width="210" height="90" src="./img/borodinskiy.svg" alt="borodinskiy">
           </li>
-          <li>
+          <li class="partners-item">
             <img width="185" height="52" src="./img/pink.jpg" alt="pink">
           </li>
-          <li>
+          <li class="partners-item">
             <img width="175" height="85" src="./img/mishka.jpg" alt="mishka">
           </li>
         </ul>
       </section>
 
-      
+      <img width="1440" height="415" src="./img/map.jpg" alt="map city">      
     </main>
 
-    <footer>
-      <section>
-        <ul>
-          <li>
-            <h4>NЁRDS DESIGN STUDIO</h4>
-          </li>
-          <li>
-            <p>
-              191186, Санкт-Петербург, <br>
-              ул. Б. Конюшенная, д. 19/8
-            </p>
-          </li>
-          <li>
-            <p>
-              тел. <a href="tel:78122757575">+7 (812) 275-75-75</a>
-            </p>
-          </li>
-          <li>
-            <a href="#">Напишите нам</a>
-          </li>
-        </ul>
+    <footer class="main-footer">
+      <section class="footer-contacts">
+        <h4>NЁRDS DESIGN STUDIO</h4>
 
-        <img width="1440" height="415" src="./img/map.jpg" alt="map city">
+        <p class="contacts-address">
+          191186, Санкт-Петербург, <br>
+          ул. Б. Конюшенная, д. 19/8
+        </p>
+
+        <p class="contacts-phone">
+          тел. <a href="tel:78122757575">+7 (812) 275-75-75</a>
+        </p>
+
+        <a class="contacts-button" href="#">Напишите нам</a>
       </section>
 
-      <section>
+      <section class="footer-social">
         <ul>
           <li>
-            <img width="81" height="81" src="./img/vk-icon.svg" alt="vk-logo">
+            <a href="#" class="social-button vk-icon">
+              <img width="81" height="81" src="./img/vk-icon.svg" alt="vk-logo">
+            </a>
           </li>
           <li>
-            <img width="81" height="81" src="./img/fb-icon.svg" alt="facebook-logo">
+            <a href="#" class="social-button fb-icon">
+              <img width="81" height="81" src="./img/fb-icon.svg" alt="facebook-logo">
+            </a>
           </li>
           <li>
-            <img width="81" height="81" src="./img/insta-icon.svg" alt="insta-logo">
+            <a href="#" class="social-button inst-icon">
+              <img width="81" height="81" src="./img/insta-icon.svg" alt="insta-logo">
+            </a>
           </li>
         </ul>
-        <div>
+        <div class="additional-information">
           <h2>Давайте дружить это выгодно!</h2>
           Скидка 10% для друзей из социальных сетей
         </div>
