@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html" ><img width="160" height="65" src="./img/logo.svg" alt="Логотип сайта Nerds"></a>
+        <ul>
+          <li><a href="./template/blank.html">Студия</a></li>
+          <li><a href="./template/blank.html">Клиенты</a></li>
+          <li><a href="./template/catalog.html">Магазин</a></li>
+          <li><a href="./template/blank.html">Контакты</a></li>
+        </ul>
+        <img width="15" height="15" src="./img/cart-icon.svg" alt="Иконка корзины">
+        <a href="./template/blank.html">Корзина</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <form action="#">
+          <h3>стоимость</h3>
+          <input type="range" name="range" id="range-price">
+          <p>
+            <label for="minVal">ОТ</label>
+          <input type="text" placeholder="0" id="minVal">
+            <label for="maxVal">ДО</label>
+          <input type="text" placeholder="15 000" id="maxVal">          
+          </p>
+    
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul>
+            <li>
+              <input type="radio" name="grid-group" id="adaptive">
+              <label for="adaptive">Адаптивная</label>
+            </li>
+            <li>
+              <input type="radio" name="grid-group" id="fixed">
+              <label for="fixed">Фиксированная</label>
+            </li>
+            <li>
+              <input type="radio" name="grid-group" id="rubber">
+              <label for="rubber">Резиновая</label>
+            </li>
+          </ul>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li>
+              <input id="slider" type="checkbox">
+              <label for="slider">Слайдер</label>
+            </li>
+            <li>
+              <input id="nice-block" type="checkbox">
+              <label for="nice-block">Блок Преимуществ</label>
+               
+            </li>
+            <li>
+              <input id="news" type="checkbox">
+              <label for="news">Новости</label>
+            </li>
+            <li>
+              <input id="galery" type="checkbox">
+              <label for="galery">Галерея</label>
+            </li>
+            <li>
+              <input id="basket" type="checkbox">
+              <label for="basket">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+        </form>
+      </section>
+      <section>
+        <h3>Сортировать:</h3>
+        <ul>
+          <li>
+            <a href="#">По цене</a>
+          </li>
+          <li>
+            <a href="#">По типу</a>
+          </li>
+          <li>
+            <a href="#">По названию</a>
+          </li>
+          <li>
+            <img width="10" height="10" src="./img/arrow-down.svg" alt="arrow-down">
+            <img width="10" height="10" src="./img/arrow-up.svg" alt="arrow-up">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <div></div>
+            <img width="360" height="580" src="./img/site-sedona.jpg" alt="sedona">
+          </li>
+          <li>
+            <div></div>
+            <img width="360" height="580" src="./img/site-pink.jpg" alt="pink">
+          </li>
+          <li>
+            <div></div>
+            <img width="360" height="580" src="./img/site-barbershop.jpg" alt="barbershop">
+          </li>
+          <li>
+            <div></div>
+            <img width="360" height="580" src="./img/site-mishka.jpg" alt="mishka">
+          </li>
+          <li>
+            <div></div>
+            <img width="360" height="580" src="./img/site-aplus.jpg" alt="study-site">
+          </li>
+          <li>
+            <div></div>
+            <img width="360" height="580" src="./img/site-kvast.jpg" alt="kvass">
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            1
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">Следующая</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <h4>NЁRDS DESIGN STUDIO</h4>
+          </li>
+          <li>
+            <p>
+              191186, Санкт-Петербург, <br>
+              ул. Б. Конюшенная, д. 19/8
+            </p>
+          </li>
+          <li>
+            <p>
+              тел. <a href="tel:78122757575">+7 (812) 275-75-75</a>
+            </p>
+          </li>
+          <li>
+            <a href="#">Напишите нам</a>
+          </li>
+        </ul>
+
+        <img width="1440" height="415" src="./img/map.jpg" alt="map city">
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <ul>
+          <li>
+            <img width="81" height="81" src="./img/vk-icon.svg" alt="vk-logo">
+          </li>
+          <li>
+            <img width="81" height="81" src="./img/fb-icon.svg" alt="facebook-logo">
+          </li>
+          <li>
+            <img width="81" height="81" src="./img/insta-icon.svg" alt="insta-logo">
+          </li>
+        </ul>
+        <div>
+          <h2>Давайте дружить это выгодно!</h2>
+          Скидка 10% для друзей из социальных сетей
+        </div>
+      </section>
+    </footer>
+
+    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p> -->
+
+  </body>
+</html>
