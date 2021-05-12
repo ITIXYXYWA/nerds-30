@@ -1,0 +1,307 @@
+/* Variables */
+
+:root {
+    --basic-black:  #000000;
+    --basic-gray:   #283136;
+    --basic-white:  #FFFFFF;
+    
+    --button-pink:       #FB565A;
+    --button-pink-hover: #E74246;
+    --button-pink-click: #D7373B;
+
+    --button-green:       #00CA74;
+    --button-green-hover: #00BC6C;
+    --button-green-click: #00AA62;
+
+    --button-yellow:       #EFC849;
+    --button-yellow-hover: #EAB534;
+    --button-yellow-click: #E5A722;
+
+    --special-gray: #EEEEEE;
+
+    --special-contacts-color-gray: #666666;
+
+    --special-gray-icons:   #E1E1E1;
+    --special-footer-color: #444444;
+
+    --social-icons-state-color: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+    --social-icons-hover-color: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
+    --social-icons-click-color: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;;
+}
+
+
+/* Global */
+
+.page-body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: var(--basic-black);
+}
+
+a {
+    text-decoration: none;
+    color: var(--basic-black);
+}
+
+.button {
+    background-color: var(--button-pink);
+    color: var(--basic-white);
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Navigation */
+
+.site-navigation {
+    list-style: none;
+}
+
+.main-header, .slider-container {
+    background-color: var(--special-gray);
+}
+
+.main-navigation a {
+    color: var(--basic-black);
+}
+
+.main-navigation a:hover {
+    color: var(--hover-pink);
+}
+
+.main-navigation a:active {
+    color: var(--basic-black);
+    opacity: .3;
+}
+
+/* SLIDER */
+
+.slider-container p:first-child {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.slider-container p:last-child {
+    line-height: 24px;
+    color: var(--basic-gray);
+}
+
+.more-info-link:hover {
+    background-color: var(--button-pink-hover);
+}
+
+.more-info-link:active {
+    background-color: var(--button-pink-click);
+}
+
+/* List of links */
+
+.links-list {
+    list-style: none;
+}
+
+.links-item h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.links-item p {
+    font-weight: 400;
+    color: var(--basic-gray);
+}
+
+/* styles button links */
+
+    /* pink */
+
+    .web-sites-button:hover {
+        background-color: var(--button-pink-hover);
+    }
+    .web-sites-button:active {
+        background-color: var(--button-pink-click);
+        opacity: .3;
+    }
+
+    /* green */
+
+    .app-button {
+        background-color: var(--button-green);
+    }
+    .app-button:hover {
+        background-color: var(--button-green-hover);
+    }
+    .app-button:active {
+        background-color: var(--button-green-click);
+        opacity: .3;
+    }
+
+    /* yellow */
+
+    .presentation-button {
+        background-color: var(--button-yellow);
+    }
+    .presentation-button:hover {
+        background-color: var(--button-yellow-hover);
+    }
+    .presentation-button:active {
+        background-color: var(--button-yellow-click);
+        opacity: .3;
+    }
+
+/* Features Nerds */
+
+.features h1 {
+    color: var(--basic-black);
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.features p {
+    color: var(--basic-gray);
+}
+
+.features h4 {
+    font-weight: 700;
+    color: var(--basic-gray);
+}
+
+.features-list {
+    color: var(--basic-gray)
+}
+
+/* Statistics for complany Nerds */
+
+
+.statistics h4 {
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+.stat-list {
+    list-style: none;
+}
+
+.stat-item h1 {
+    font-size: 45px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.stat-item sup {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.stat-item p {
+    color: var(--basic-gra  y);
+}
+
+/* partners */
+
+.partners-list {
+    list-style: none;
+}
+.partners-item {
+    opacity: .2;
+}
+
+.partners-item:hover {
+    opacity: 1;
+}
+.partners-item:active {
+    opacity: .1;
+}
+
+/* FOOTER */
+
+    /* contacts */
+
+    .footer-contacts h4 {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+
+    .contacts-address,
+    .contacts-phone {
+        color: var(--special-contacts-color-gray);
+        line-height: 16px;
+    }
+
+    .contacts-phone a {
+        color: var(--special-contacts-color-gray);
+    }
+
+.contacts-button:hover {
+    background-color: var(--button-pink-hover);
+}
+
+.contacts-button:active {
+    background-color: var(--button-pink-click);
+    opacity: .3;
+}
+
+/* social-links / icons */
+
+.social-list {
+    list-style: none;
+}
+
+.social-item {
+    background: var(--social-icons-state-color);
+}
+
+.social-item:hover {
+    background: var(--social-icons-hover-color);
+}
+
+.social-item:active {
+    background: var(--social-icons-click-color);
+    opacity: .9;
+}
+
+/* additional info for nerds */
+.additional-information {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: var(--special-footer-color)
+} 
+
+.additional-information h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: var(--basic-black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
