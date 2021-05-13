@@ -223,7 +223,7 @@ a {
 
     /* contacts */
 
-    .footer-contacts h4 {
+    .contacts h4 {
         font-size: 18px;
         line-height: 30px;
         font-weight: 700;
@@ -282,6 +282,19 @@ a {
     color: var(--basic-black);
 }
 
+
+/* Style for catalog page */
+
+.fieldset-list {
+    list-style: none;
+}
+
+
+/* Bottom navigation list */
+
+.navigation-list {
+    list-style: none;
+}
 
 
 
