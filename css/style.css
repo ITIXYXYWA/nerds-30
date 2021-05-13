@@ -1,19 +1,19 @@
 /* Variables */
 
 :root {
-    --basic-black:  #000000;
-    --basic-gray:   #283136;
-    --basic-white:  #FFFFFF;
+    --basic-black:#000000;
+    --basic-gray:#283136;
+    --basic-white:#FFFFFF;
     
-    --button-pink:       #FB565A;
-    --button-pink-hover: #E74246;
-    --button-pink-click: #D7373B;
+    --button-pink:#FB565A;
+    --button-pink-hover:#E74246;
+    --button-pink-click:#D7373B;
 
-    --button-green:       #00CA74;
-    --button-green-hover: #00BC6C;
-    --button-green-click: #00AA62;
+    --button-green:#00CA74;
+    --button-green-hover:#00BC6C;
+    --button-green-click:#00AA62;
 
-    --button-yellow:       #EFC849;
+    --button-yellow: #EFC849;
     --button-yellow-hover: #EAB534;
     --button-yellow-click: #E5A722;
 
@@ -21,7 +21,7 @@
 
     --special-contacts-color-gray: #666666;
 
-    --special-gray-icons:   #E1E1E1;
+    --special-gray-icons: #E1E1E1;
     --special-footer-color: #444444;
 
     --social-icons-state-color: linear-gradient(0deg, var(--special-gray-icons), var(--special-gray-icons)), var(--basic-white);
@@ -179,7 +179,6 @@ a {
 
 /* Statistics for complany Nerds */
 
-
 .statistics h4 {
     font-weight: 700;
     /* text-align: center; */
@@ -270,6 +269,7 @@ a {
 }
 
 /* additional info for nerds */
+
 .additional-information {
     font-size: 16px;
     line-height: 22px;
@@ -339,26 +339,3 @@ a {
 .sort-category-list {
     list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
