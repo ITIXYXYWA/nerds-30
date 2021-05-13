@@ -24,9 +24,9 @@
     --special-gray-icons:   #E1E1E1;
     --special-footer-color: #444444;
 
-    --social-icons-state-color: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
-    --social-icons-hover-color: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
-    --social-icons-click-color: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;;
+    --social-icons-state-color: linear-gradient(0deg, var(--special-gray-icons), var(--special-gray-icons)), var(--basic-white);
+    --social-icons-hover-color: linear-gradient(0deg, var(--button-pink-hover), var(--button-pink-hover)), var(--basic-white);
+    --social-icons-click-color: linear-gradient(0deg, var(--button-pink-click), var(--button-pink-click)), var(--basic-white);;
 }
 
 
