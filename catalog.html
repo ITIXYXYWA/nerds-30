@@ -32,70 +32,78 @@
     </header>
 
     <main class="section">
+
+      <section class="heading-page">
+        <h1>Магазин готовых шаблонов</h1>
+      </section>
+
       <section class="filter">
 
       <section class="form-sorting">
         <form action="#">
-          <h3>стоимость</h3>
-          <input type="range" name="range" id="range-price">
-          <p>
-            <label for="minVal">ОТ</label>
-          <input type="text" placeholder="0" id="minValue">
-            <label for="maxVal">ДО</label>
-          <input type="text" placeholder="15 000" id="maxValue">          
-          </p>
 
-        <fieldset class="fieldset-grid">
-          <legend>Сетка:</legend>
-          <ul class="fieldset-list fieldset-list-grid">
-            <li class="fieldset-item fieldset-item-grid">
-              <input type="radio" name="grid-group" id="adaptive">
-              <label for="adaptive">Адаптивная</label>
-            </li>
-            <li class="fieldset-item fieldset-item-grid">
-              <input type="radio" name="grid-group" id="fixed">
-              <label for="fixed">Фиксированная</label>
-            </li>
-            <li class="fieldset-item fieldset-item-grid">
-              <input type="radio" name="grid-group" id="rubber">
-              <label for="rubber">Резиновая</label>
-            </li>
-          </ul>
-        </fieldset>
+          <section class="price-sort">
+            <h3>стоимость</h3>
+            <input type="range" name="range" id="range-price">
+            <p>
+                <label for="minValue">ОТ</label>
+              <input type="text" placeholder="0" id="minValue">
+                <label for="maxValue">ДО</label>
+              <input type="text" placeholder="15 000" id="maxValue">          
+            </p>
+          </section>
+
+          <fieldset class="fieldset-grid">
+            <legend>Сетка:</legend>
+            <ul class="fieldset-list fieldset-list-grid">
+              <li class="fieldset-item fieldset-item-grid">
+                <input type="radio" name="grid-group" id="adaptive">
+                <label for="adaptive">Адаптивная</label>
+              </li>
+              <li class="fieldset-item fieldset-item-grid">
+                <input type="radio" name="grid-group" id="fixed">
+                <label for="fixed">Фиксированная</label>
+              </li>
+              <li class="fieldset-item fieldset-item-grid">
+                <input type="radio" name="grid-group" id="rubber">
+                <label for="rubber">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
   
-        <fieldset class="fieldset-features">
-          <legend>Особенности:</legend>
-          <ul class="fieldset-list fieldset-list-features">
-            <li class="fieldset-item">
-              <input id="slider" type="checkbox">
-              <label for="slider">Слайдер</label>
-            </li>
-            <li class="fieldset-item">
-              <input id="nice-block" type="checkbox">
-              <label for="nice-block">Блок Преимуществ</label>
-               
-            </li>
-            <li class="fieldset-item">
-              <input id="news" type="checkbox">
-              <label for="news">Новости</label>
-            </li>
-            <li class="fieldset-item">
-              <input id="galery" type="checkbox">
-              <label for="galery">Галерея</label>
-            </li>
-            <li class="fieldset-item">
-              <input id="basket" type="checkbox">
-              <label for="basket">Корзина</label>
-            </li>
-          </ul>
-        </fieldset>
-        <button type="submit">Показать</button>
+          <fieldset class="fieldset-features">
+            <legend>Особенности:</legend>
+            <ul class="fieldset-list fieldset-list-features">
+              <li class="fieldset-item">
+                <input id="slider" type="checkbox">
+                <label for="slider">Слайдер</label>
+              </li>
+              <li class="fieldset-item">
+                <input id="nice-block" type="checkbox">
+                <label for="nice-block">Блок Преимуществ</label>
+                
+              </li>
+              <li class="fieldset-item">
+                <input id="news" type="checkbox">
+                <label for="news">Новости</label>
+              </li>
+              <li class="fieldset-item">
+                <input id="galery" type="checkbox">
+                <label for="galery">Галерея</label>
+              </li>
+              <li class="fieldset-item">
+                <input id="basket" type="checkbox">
+                <label for="basket">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="button" type="submit">Показать</button>
         </form>
       </section>
 
       <section class="sort-by-category">
         <h3>Сортировать:</h3>
-        <ul>
+        <ul class="sort-category-list">
           <li>
             <a href="#">По цене</a>
           </li>
@@ -115,29 +123,29 @@
     </section>
 
       <section class="content-price">
-        <ul>
+        <ul class="content-list">
           <li>
-            <div></div>
+            <div class="content-header"></div>
             <img width="360" height="580" src="./img/site-sedona.jpg" alt="sedona">
           </li>
           <li>
-            <div></div>
+            <div class="content-header"></div>
             <img width="360" height="580" src="./img/site-pink.jpg" alt="pink">
           </li>
           <li>
-            <div></div>
+            <div class="content-header"></div>
             <img width="360" height="580" src="./img/site-barbershop.jpg" alt="barbershop">
           </li>
           <li>
-            <div></div>
+            <div class="content-header"></div>
             <img width="360" height="580" src="./img/site-mishka.jpg" alt="mishka">
           </li>
           <li>
-            <div></div>
+            <div class="content-header"></div>
             <img width="360" height="580" src="./img/site-aplus.jpg" alt="study-site">
           </li>
           <li>
-            <div></div>
+            <div class="content-header"></div>
             <img width="360" height="580" src="./img/site-kvast.jpg" alt="kvass">
           </li>
         </ul>

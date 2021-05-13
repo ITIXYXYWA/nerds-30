@@ -53,6 +53,8 @@ a {
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    border: none;
+    outline: none;
 }
 
 /* Navigation */
@@ -200,7 +202,7 @@ a {
 }
 
 .stat-item p {
-    color: var(--basic-gra  y);
+    color: var(--basic-gray);
 }
 
 /* partners */
@@ -285,14 +287,56 @@ a {
 
 /* Style for catalog page */
 
+.heading-page h1 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    color: var(--basic-black);
+}
+
+.form-sorting h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
 .fieldset-list {
     list-style: none;
 }
 
+/* .fieldset-grid label {
+    color: var(--basic-gray);
+    line-height: 20px;
+} */
+
+.fieldset-grid legend {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.content-list {
+    list-style: none;
+}
+
+.price-sort input {
+    background: var(--special-gray);
+    border: none;
+}
+
+.price-sort label {
+    color: var(--basic-gray);
+    line-height: 22px;
+}
 
 /* Bottom navigation list */
 
 .navigation-list {
+    list-style: none;
+}
+
+/* Filter */
+
+.sort-category-list {
     list-style: none;
 }
 
