@@ -74,6 +74,9 @@ a {
 }
 
 .site-navigation {
+    width: 440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -103,6 +106,12 @@ a {
 .main-navigation a:active {
     color: var(--basic-black);
     opacity: .3;
+}
+
+.user-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
 }
 
 /* MAIN */
