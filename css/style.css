@@ -1,32 +1,32 @@
 /* Variables */
 
 :root {
-    --basic-black:  #000000;
-    --basic-gray:   #283136;
-    --basic-white:  #FFFFFF;
+    --black: #000000;
+    --gray: #283136;
+    --white: #FFFFFF;
     
-    --button-pink:       #FB565A;
-    --button-pink-hover: #E74246;
-    --button-pink-click: #D7373B;
+    --pink: #FB565A;
+    --pink-hover: #E74246;
+    --pink-click: #D7373B;
 
-    --button-green:       #00CA74;
-    --button-green-hover: #00BC6C;
-    --button-green-click: #00AA62;
+    --green: #00CA74;
+    --green-hover: #00BC6C;
+    --green-click: #00AA62;
 
-    --button-yellow:       #EFC849;
-    --button-yellow-hover: #EAB534;
-    --button-yellow-click: #E5A722;
+    --yellow: #EFC849;
+    --yellow-hover: #EAB534;
+    --yellow-click: #E5A722;
 
     --special-gray: #EEEEEE;
 
     --special-contacts-color-gray: #666666;
 
-    --special-gray-icons:   #E1E1E1;
-    --special-footer-color: #444444;
+    --gray-icons: #E1E1E1;
+    --footer-color: #444444;
 
-    --social-icons-state-color: linear-gradient(0deg, var(--special-gray-icons), var(--special-gray-icons)), var(--basic-white);
-    --social-icons-hover-color: linear-gradient(0deg, var(--button-pink-hover), var(--button-pink-hover)), var(--basic-white);
-    --social-icons-click-color: linear-gradient(0deg, var(--button-pink-click), var(--button-pink-click)), var(--basic-white);;
+    --social-icons-state-color: linear-gradient(0deg, var(--special-gray-icons), var(--special-gray-icons)), var(--white);
+    --social-icons-hover-color: linear-gradient(0deg, var(--pink-hover), var(--pink-hover)), var(--white);
+    --social-icons-click-color: linear-gradient(0deg, var(--button-pink-click), var(--button-pink-click)), var(--white);;
 }
 
 
@@ -39,7 +39,7 @@
     font-style: normal;
     margin: 0;
     padding: 0;
-    color: var(--basic-black);
+    color: var(--black);
 
     min-height: 100%;
     display: grid;
@@ -49,12 +49,12 @@
 
 a {
     text-decoration: none;
-    color: var(--basic-black);
+    color: var(--black);
 }
 
 .button {
-    background-color: var(--button-pink);
-    color: var(--basic-white);
+    background-color: var(--pink);
+    color: var(--white);
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -97,7 +97,7 @@ a {
 }
 
 .main-navigation a {
-    color: var(--basic-black);
+    color: var(--black);
 }
 
 .main-navigation a:hover {
@@ -105,7 +105,7 @@ a {
 }
 
 .main-navigation a:active {
-    color: var(--basic-black);
+    color: var(--black);
     opacity: .3;
 }
 
@@ -133,11 +133,11 @@ a {
 
 .slider-container p:last-child {
     line-height: 24px;
-    color: var(--basic-gray);
+    color: var(--gray);
 }
 
 .more-info-link:hover {
-    background-color: var(--button-pink-hover);
+    background-color: var(--pink-hover);
 }
 
 .more-info-link:active {
@@ -168,7 +168,7 @@ a {
 .links-item p {
     margin-bottom: 30px;
     font-weight: 400;
-    color: var(--basic-gray);
+    color: var(--gray);
 }
 
 /* styles button links */
@@ -176,7 +176,7 @@ a {
     /* pink */
 
     .web-sites-button:hover {
-        background-color: var(--button-pink-hover);
+        background-color: var(--pink-hover);
     }
     .web-sites-button:active {
         background-color: var(--button-pink-click);
@@ -217,23 +217,23 @@ a {
 }
 
 .features h1 {
-    color: var(--basic-black);
+    color: var(--black);
     font-weight: 500;
     font-size: 45px;
     line-height: 45px;
 }
 
 .features p {
-    color: var(--basic-gray);
+    color: var(--gray);
 }
 
 .features h4 {
     font-weight: 700;
-    color: var(--basic-gray);
+    color: var(--gray);
 }
 
 .features-list {
-    color: var(--basic-gray)
+    color: var(--gray)
 }
 
 /* Statistics for complany Nerds */
@@ -265,7 +265,7 @@ a {
 }
 
 .stat-item p {
-    color: var(--basic-gray);
+    color: var(--gray);
 }
 
 /* partners */
@@ -320,7 +320,7 @@ a {
 }
 
 .contacts-button:hover {
-    background-color: var(--button-pink-hover);
+    background-color: var(--pink-hover);
 }
 
 .contacts-button:active {
@@ -365,5 +365,5 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
-    color: var(--basic-black);
+    color: var(--black);
 }
