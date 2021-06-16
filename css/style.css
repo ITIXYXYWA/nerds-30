@@ -14,7 +14,7 @@
     --button-green-click: #00AA62;
 
     --button-yellow:       #EFC849;
-    --button-yellow-hover: #EAB534;
+    --button-yellow-hover: #EAB534; 
     --button-yellow-click: #E5A722;
 
     --special-gray: #EEEEEE;
@@ -37,6 +37,7 @@
     font-size: 16px;
     line-height: 24px;
     font-style: normal;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     color: var(--basic-black);
@@ -56,13 +57,36 @@ a {
 }
 
 /* Navigation */
-
-.site-navigation {
-    list-style: none;
+ 
+.main-header-logo {
+    min-width: 160px;
+    margin-right: 224px;
 }
 
 .main-header, .slider-container {
     background-color: var(--special-gray);
+}
+
+.site-navigation {
+    min-width: 440px;
+    min-height: 30px;
+    margin-right: 246px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation-item {
+    margin-right: 56px;
+}
+
+.main-navigation {
+    min-height: inherit;
+    min-width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-navigation a {
@@ -79,6 +103,11 @@ a {
 }
 
 /* SLIDER */
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+}
 
 .slider-container p:first-child {
     font-size: 55px;
@@ -100,8 +129,15 @@ a {
 
 /* List of links */
 
+.links {
+    width: 1220px;
+    margin-left: 140px;
+}
+
 .links-list {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .links-item h2 {
@@ -155,6 +191,11 @@ a {
 
 /* Features Nerds */
 
+.information-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .features h1 {
     color: var(--basic-black);
     font-weight: 500;
@@ -178,6 +219,7 @@ a {
 /* Statistics for complany Nerds */
 
 
+
 .statistics h4 {
     font-weight: 700;
     /* text-align: center; */
@@ -185,6 +227,8 @@ a {
 
 .stat-list {
     list-style: none;
+    display: flex;
+    gap: 30px;
 }
 
 .stat-item h1 {
@@ -207,7 +251,11 @@ a {
 
 .partners-list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
+
 .partners-item {
     opacity: .2;
 }
@@ -252,10 +300,18 @@ a {
 
 .social-list {
     list-style: none;
+    display: flex;
 }
+
 
 .social-item {
     background: var(--social-icons-state-color);
+    border-radius: 50%;
+    min-width: 81px;
+    min-height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-item:hover {
