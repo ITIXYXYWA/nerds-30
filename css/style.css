@@ -74,7 +74,6 @@ a {
     display: flex;
     padding: 0;
     margin-left: 2px;
-    
 }
 
 .navigation-item {
@@ -166,6 +165,25 @@ a {
 
 .more-info-link:active {
     background-color: var(--button-pink-click);
+}
+
+.slider-button {
+    width: 92px;
+    height: 20px;
+    position: relative;
+    left: 116px;
+    top: -141px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-btn {
+    transform: scale(1.5);
+}
+
+.gallery-content img {
+    position: relative;
+    left: -18px;
+    top: -23px
 }
 
 /* List of links */
