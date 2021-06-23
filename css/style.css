@@ -77,22 +77,25 @@ a {
 }
 
 .button {
-    background-color: var(--button-pink);
+    margin-top: 32px;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--basic-white);
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
 }
 
 /* Navigation */
 
 .main-header {
-    min-width: 1440px;
+    width: 1440px;
 }
  
 .main-header-logo {
-    min-width: 160px;
-    margin-right: 224px;
+    margin-right: 200px;
 }
 
 .main-header, .slider-container {
@@ -102,23 +105,22 @@ a {
 .site-navigation {
     min-width: 440px;
     min-height: 30px;
-    margin-right: 246px;
+    margin-right: 205px;
     list-style: none;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding: 0;
+    margin-left: 2px;
 }
 
 .navigation-item {
-    margin-right: 56px;
+    margin-top: 13px;
+    padding-right: 46px;
 }
 
 .main-navigation {
-    min-height: inherit;
-    min-width: inherit;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 120px;
+    margin-top: 40px;
 }
 
 .main-navigation a {
@@ -134,19 +136,61 @@ a {
     opacity: .3;
 }
 
+.user-navigation {
+    min-width: 110px;
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-navigation img {
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
 /* SLIDER */
+
+.text-for-slider {
+    margin-top: 71px;
+    margin-left: 16px;
+}
+
+.text-for-slider p {
+    font-size: 55px;
+    line-height: 55px;
+    margin: 0;
+}
 
 .slider-container {
     display: flex;
     justify-content: center;
 }
 
-.slider-container p:first-child {
-    font-size: 55px;
-    line-height: 55px;
+.more-info-link {
+    background-color: var(--button-pink);
+    width: 240px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
 }
 
-.slider-container p:last-child {
+.more-info-link a {
+    color: var(--basic-white);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container-button {
+    min-height: 20px;
+    margin-top: 27px;
+}
+
+.container-button p {
+    font-size: 16px;
     line-height: 24px;
     color: var(--basic-gray);
 }
@@ -159,11 +203,31 @@ a {
     background-color: var(--button-pink-click);
 }
 
+.slider-button {
+    width: 92px;
+    height: 20px;
+    position: relative;
+    left: 116px;
+    top: -141px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-btn {
+    transform: scale(1.5);
+}
+
+.gallery-content img {
+    position: relative;
+    left: -18px;
+    top: -23px
+}
+
 /* List of links */
 
 .links {
     min-width: 1200px;
-    margin-left: 61px;
+    margin-top: -2px;
+    margin-left: 80px;
 }
 
 .links-list {
@@ -176,50 +240,56 @@ a {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
+    margin-bottom: 9px;
 }
 
 .links-item p {
+    /* margin-top: 1px; */
     font-weight: 400;
     color: var(--basic-gray);
 }
 
 /* styles button links */
 
-    /* pink */
+/* pink */
 
-    .web-sites-button:hover {
-        background-color: var(--button-pink-hover);
-    }
-    .web-sites-button:active {
-        background-color: var(--button-pink-click);
-        opacity: .3;
-    }
+.web-sites-button {
+    background-color: var(--button-pink);
+}
 
-    /* green */
+.web-sites-button:hover {
+    background-color: var(--button-pink-hover);
+}
+.web-sites-button:active {
+    background-color: var(--button-pink-click);
+    opacity: .3;
+}
 
-    .app-button {
-        background-color: var(--button-green);
-    }
-    .app-button:hover {
-        background-color: var(--button-green-hover);
-    }
-    .app-button:active {
-        background-color: var(--button-green-click);
-        opacity: .3;
-    }
+/* green */
 
-    /* yellow */
+.app-button {
+    background-color: var(--button-green);
+}
+.app-button:hover {
+    background-color: var(--button-green-hover);
+}
+.app-button:active {
+    background-color: var(--button-green-click);
+    opacity: .3;
+}
 
-    .presentation-button {
-        background-color: var(--button-yellow);
-    }
-    .presentation-button:hover {
-        background-color: var(--button-yellow-hover);
-    }
-    .presentation-button:active {
-        background-color: var(--button-yellow-click);
-        opacity: .3;
-    }
+/* yellow */
+
+.presentation-button {
+    background-color: var(--button-yellow);
+}
+.presentation-button:hover {
+    background-color: var(--button-yellow-hover);
+}
+.presentation-button:active {
+    background-color: var(--button-yellow-click);
+    opacity: .3;
+}
 
 /* Features Nerds */
 
@@ -385,27 +455,3 @@ a {
     line-height: 36px;
     color: var(--basic-black);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
