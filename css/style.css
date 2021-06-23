@@ -52,14 +52,6 @@ a {
     color: var(--basic-black);
 }
 
-.button {
-    background-color: var(--button-pink);
-    color: var(--basic-white);
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-}
-
 /* Navigation */
 
 .main-header {
@@ -124,17 +116,46 @@ a {
 
 /* SLIDER */
 
+.text-for-slider {
+    margin-top: 71px;
+    margin-left: 16px;
+}
+
+.text-for-slider p {
+    font-size: 55px;
+    line-height: 55px;
+    margin: 0;
+}
+
 .slider-container {
     display: flex;
     justify-content: center;
 }
 
-.slider-container p:first-child {
-    font-size: 55px;
-    line-height: 55px;
+.more-info-link {
+    background-color: var(--button-pink);
+    width: 240px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
 }
 
-.slider-container p:last-child {
+.more-info-link a {
+    color: var(--basic-white);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container-button {
+    min-height: 20px;
+    margin-top: 27px;
+}
+
+.container-button p {
+    font-size: 16px;
     line-height: 24px;
     color: var(--basic-gray);
 }
