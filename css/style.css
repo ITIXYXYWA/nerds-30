@@ -25,27 +25,28 @@
 /* Variables */
 
 :root {
-    --basic-black:  #000000;
-    --basic-gray:   #283136;
-    --basic-white:  #FFFFFF;
+    --basic-black:#000000;
+    --basic-gray:#283136;
+    --basic-white:#FFFFFF;
     
-    --button-pink:       #FB565A;
-    --button-pink-hover: #E74246;
-    --button-pink-click: #D7373B;
+    --button-pink:#FB565A;
+    --button-pink-hover:#E74246;
+    --button-pink-click:#D7373B;
 
-    --button-green:       #00CA74;
-    --button-green-hover: #00BC6C;
-    --button-green-click: #00AA62;
+    --button-green:#00CA74;
+    --button-green-hover:#00BC6C;
+    --button-green-click:#00AA62;
 
     --button-yellow:       #EFC849;
     --button-yellow-hover: #EAB534; 
+
     --button-yellow-click: #E5A722;
 
     --special-gray: #EEEEEE;
 
     --special-contacts-color-gray: #666666;
 
-    --special-gray-icons:   #E1E1E1;
+    --special-gray-icons: #E1E1E1;
     --special-footer-color: #444444;
 
     --social-icons-state-color: linear-gradient(0deg, var(--special-gray-icons), var(--special-gray-icons)), var(--basic-white);
@@ -86,6 +87,12 @@ a {
     justify-content: center;
     align-items: center;
     color: var(--basic-white);
+
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    border: none;
+    outline: none;
 }
 
 /* Navigation */
@@ -321,8 +328,6 @@ a {
 
 /* Statistics for complany Nerds */
 
-
-
 .statistics h4 {
     font-weight: 700;
     /* text-align: center; */
@@ -379,7 +384,7 @@ a {
 
     /* contacts */
 
-    .footer-contacts h4 {
+    .contacts h4 {
         font-size: 18px;
         line-height: 30px;
         font-weight: 700;
@@ -442,6 +447,7 @@ a {
 }
 
 /* additional info for nerds */
+
 .additional-information {
     font-size: 16px;
     line-height: 22px;
@@ -454,4 +460,65 @@ a {
     font-size: 36px;
     line-height: 36px;
     color: var(--basic-black);
+}
+
+/* Style for catalog page */
+
+.heading-page h1 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    color: var(--basic-black);
+}
+
+.form-sorting h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.fieldset-list {
+    list-style: none;
+}
+
+/* .fieldset-grid label {
+    color: var(--basic-gray);
+    line-height: 20px;
+} */
+
+.fieldset-grid legend {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.content-list {
+    list-style: none;
+}
+
+.price-sort input {
+    background: var(--special-gray);
+    border: none;
+}
+
+.price-sort label {
+    color: var(--basic-gray);
+    line-height: 22px;
+}
+
+/* Bottom navigation list */
+
+.navigation-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 450px;
+    column-gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Filter */
+
+.sort-category-list {
+    list-style: none;
 }
