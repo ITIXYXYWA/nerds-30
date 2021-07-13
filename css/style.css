@@ -175,6 +175,7 @@ a {
 .slider-container {
     display: flex;
     justify-content: center;
+    min-width: 1440px;
 }
 
 .more-info-link {
