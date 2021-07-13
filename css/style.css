@@ -530,7 +530,7 @@ a {
     width: 319px;
     height: 310px;
     top: 60px;
-    left: 240px;
+    left: 340px;
 }
 
 .contacts-map {
@@ -550,6 +550,7 @@ a {
 .map {
     position: relative;
     height: 400px;
+    width: 100%;
 }
 
 /* FOOTER */
@@ -595,12 +596,10 @@ a {
 }
 
 /* social-links / icons */
-
 .main-footer {
-    min-width: inherit;
-    min-height: inherit;
+    width: 1060px;
+    height: 81px;
 }
-
 
 .footer-social {
     display: flex;
@@ -610,6 +609,8 @@ a {
 .social-list {
     list-style: none;
     display: flex;
+    min-width: 270px;
+    justify-content: space-between;
 }
 
 .social-item {
