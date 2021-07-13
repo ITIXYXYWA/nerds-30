@@ -529,8 +529,12 @@ a {
     background-color: var(--basic-white);
     width: 319px;
     height: 310px;
-    top: 60px;
-    left: 340px;
+    top: 55px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .contacts-map {
@@ -550,7 +554,14 @@ a {
 .map {
     position: relative;
     height: 400px;
-    width: 100%;
+    width: 1460px;
+    margin-top: 66px;
+    margin-bottom: 30px;
+}
+
+.contacts-button {
+    width: 220px;
+    height: 50px;
 }
 
 /* FOOTER */
@@ -560,11 +571,9 @@ a {
 .contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
 }
-
-
 
 .contacts h4 {
     font-size: 18px;
@@ -599,6 +608,10 @@ a {
 .main-footer {
     width: 1060px;
     height: 81px;
+    margin-top: 30px;
+    position: relative;
+    right: 110px;
+    top: 10px;
 }
 
 .footer-social {
@@ -609,7 +622,7 @@ a {
 .social-list {
     list-style: none;
     display: flex;
-    min-width: 270px;
+    width: 300px;
     justify-content: space-between;
 }
 
@@ -635,18 +648,23 @@ a {
 /* additional info for nerds */
 
 .additional-information {
+    position: relative;
+    top: 6px;
+    right: 76px;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 32px;
     font-weight: 400;
     color: var(--special-footer-color)
 } 
 
-.additional-information h2 {
+.additional-information_bigText {
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
     color: var(--basic-black);
 }
+
+
 
 /* Style for catalog page */
 
