@@ -300,13 +300,55 @@ a {
 
 /* Features Nerds */
 
+.about-us {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .about-us_text h2 {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 45px;
+   line-height: 45px;
+ }
+
+ .about-us_text h4 {
+   margin-top: 40px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+ }
+
+ .about-us_text ul li {
+   padding-top: 25px;
+   list-style-type: none;
+ }
+
+ .about-us_text li:before {
+   content: "";
+   background-color: var(--basic-red);
+   width: 25px;
+   height: 2px;
+   display: inline-block;
+   margin-right: 7px;
+   vertical-align: middle;
+ }
+
 .information-container {
     display: flex;
-    justify-content: space-around;
-    margin-top: 154px;
+    justify-content: space-between;
+    margin-top: 124px;
+    position: relative;
+}
+
+.features {
+    position: relative;
+    left: 120px;
 }
 
 .features h1 {
+    font-family: 'Roboto';
     color: var(--basic-black);
     font-weight: 500;
     font-size: 45px;
@@ -315,29 +357,61 @@ a {
 
 .features p {
     color: var(--basic-gray);
+    position: relative;
+    top: 8px;
 }
 
 .features h4 {
     font-weight: 700;
     color: var(--basic-gray);
+    text-transform: uppercase;
+    margin-top: 47px;
+
 }
 
 .features-list {
-    color: var(--basic-gray)
+    color: var(--basic-gray);
+    position: relative;
+    right: 28px;
+}
+
+.feature-item {
+    margin-top: 24px;
+    list-style: none;
+}
+
+.feature-item::before {
+    content: url(../img/line-features.jpg);
+    position: relative;
+    bottom: 5px;
+    right: 10px;
 }
 
 /* Statistics for complany Nerds */
 
-.statistics h4 {
-    font-weight: 700;
-    /* text-align: center; */
+.information-container__second-block {
+    position: relative;
+    right: 158px;
+}
+
+.statistics-preview p {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 24px;
+
+    text-transform: uppercase;
 }
 
 .stat-list {
     list-style: none;
     display: flex;
-    gap: 30px;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 25px;
 }
+
 
 .stat-item h1 {
     font-size: 45px;
@@ -353,6 +427,24 @@ a {
 
 .stat-item p {
     color: var(--basic-gray);
+    line-height: 18px;
+    position: relative;
+    bottom: 19px;
+}
+
+.dedication-level {
+    position: relative;
+    right: 40px;
+}
+
+.deadline {
+    position: relative;
+    left: -20px;
+}
+
+.minimum-payment {
+    position: relative;
+    left: 1x;
 }
 
 /* partners */
