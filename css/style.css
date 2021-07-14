@@ -474,12 +474,15 @@ a {
 }
 
 .partners-item {
-    opacity: .4;
     display: flex;
 }
 
-.partners-item:hover {
-    opacity: 2;
+.partners-item img {
+    opacity: .4;
+}
+
+.partners-item img:hover {
+    opacity: 1;
 }
 
 .htmlacademy::after {
