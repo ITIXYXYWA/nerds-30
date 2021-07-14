@@ -457,25 +457,12 @@ a {
     margin-bottom: 40px;
 }
 
-.partners::after {
-    content: '';
-    position: absolute;
+.decorate-partners {
     width: 1158px;
     height: 2px;
-    left: 356px;
-    top: 1570px;
     background-color: var(--special-gray);
-}
-
-.partners::before {
-    content: '';
-    position: absolute;
-    width: 1158px;
-    height: 2px;
-    left: 356px;
-    top: 1753px;
-    background-color: var(--special-gray);
-
+    position: relative;
+    left: 150px;
 }
 
 .partners-list {
@@ -488,40 +475,31 @@ a {
 
 .partners-item {
     opacity: .4;
+    display: flex;
 }
 
 .partners-item:hover {
     opacity: 2;
 }
 
-.htmlacademy::before {
-    content: '';
-    position: absolute;
-    width: 2px;
-    height: 52px;
-    top: 1650px;
-    left: 700px;
-    background-color: var(--special-gray);
+.htmlacademy::after {
+    content: url(../img/vertical-line.svg);
+    position: relative;
+    left: 50px;
+    top: 10px;
 }
 
-.borodinskiy::before {
-    content: '';
-    position: absolute;
-    width: 2px;
-    height: 52px;
-    top: 1650px;
-    left: 1000px;
-    background-color: var(--special-gray);
-} 
+.borodinskiy::after {
+    content: url(../img/vertical-line.svg);
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
 
-.pink::before {
-    content: '';
-    position: absolute;
-    width: 2px;
-    height: 52px;
-    top: 1650px;
-    left: 1280px;
-    background-color: var(--special-gray);
+.pink::after {
+    content: url(../img/vertical-line.svg);
+    position: relative;
+    left: 50px;
 }
 
 .popup-menu {
